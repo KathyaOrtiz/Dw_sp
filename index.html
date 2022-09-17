@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style2.css" />
+    <script type="module" src="/javascript/index2.js" defer></script>
+
+    <title>Examen</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div id="ordenar" class="container-fluid">
+        <h1 id="titu" class="navbar-brand" href="#">PELICULAS</h1>
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a
+              id="titu"
+              class="nav-link active"
+              aria-current="page"
+              href="/html/index2.html"
+              onclick="redireccion()"
+              >Series Populares</a
+            >
+          </li>
+          <select class="generos" id="generos"></select>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <section class="contenedor" id="contenedor"></section>
+
+      <section class="paginacion">
+        <button id="btnAnterior">Anterior</button>
+        <button id="btnSiguiente">Siguiente</button>
+      </section>
+    </main>
+  </body>
+</html>
